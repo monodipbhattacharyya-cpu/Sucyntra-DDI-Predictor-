@@ -1,0 +1,12 @@
+# SUCYNTRA DDI Predictor
+
+> A deterministic, literature-driven clinical rules engine for Drug-Drug, Drug-Food, and Drug-Allergy interactions.
+
+SUCYNTRA is an offline clinical decision-support web app for evidence-based drug interaction analysis. Features include OCR prescription scanning, ADME pathway visualization, auto-substitution suggestions, pharmacokinetic overlap timeline, Geriatric Beers Criteria & Anticholinergic Burden scoring, polypharmacy cumulative-risk detection, a commercial drug library covering 1000+ brand formulations, a patient dashboard with local history, and a branded clinical PDF report export.
+
+## Pages
+
+- [Home](/): Overview, methodology and entry to the clinical workflow.
+- [Interaction Checker](/checker): Drug-Drug, Drug-Food and Drug-Allergy analysis with ADME mapping and pharmacokinetic timeline.
+- [Patient Dashboard](/dashboard): Local patient profiles and interaction-check history.
+- [Drug Library](/library): 1000+ commercial brand formulations mapped to generic molecules with clinical uses.
