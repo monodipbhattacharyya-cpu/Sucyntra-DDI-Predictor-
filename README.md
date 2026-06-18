@@ -3,6 +3,8 @@ A deterministic, literature-driven clinical rules engine for Drug-Drug, Drug-Foo
 
 SUCYNTRA is an offline clinical decision-support web app for evidence-based drug interaction analysis. Features include OCR prescription scanning, ADME pathway visualization, auto-substitution suggestions, pharmacokinetic overlap timeline, Geriatric Beers Criteria & Anticholinergic Burden scoring, polypharmacy cumulative-risk detection, a commercial drug library covering 1000+ brand formulations, a patient dashboard with local history, and a branded clinical PDF report export.
 
+## 🚀 Quick Start (Local Development)
+
 Follow these steps:
 
 ```sh
@@ -19,8 +21,26 @@ npm i
 npm run dev
 ```
 
+## 🌐 GitHub Pages Deployment (Automatic)
 
-## What technologies are used for this project?
+This project is configured for automatic GitHub Pages deployment!
+
+### Setup (One-time):
+1. Go to your GitHub repo → **Settings → Pages**
+2. Set **Source** to `GitHub Actions`
+3. Click Save
+
+### To Deploy:
+Simply push your code:
+```bash
+git push origin main
+```
+
+The site will automatically build and deploy! Check **Actions** tab to monitor.
+
+**See [QUICK_DEPLOY.md](./QUICK_DEPLOY.md) for detailed instructions.**
+
+## 🛠️ What technologies are used for this project?
 
 This project is built with:
 
@@ -29,4 +49,4 @@ This project is built with:
 - React
 - shadcn-ui
 - Tailwind CSS
-
+- GitHub Actions (for deployment)
